@@ -9,162 +9,127 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700&display=swap" rel="stylesheet">
-<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" sizes="16x16">
-<link rel="icon" href="favicon.ico" type="image/x-icon" sizes="16x16">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
-    <nav>
-            <img src="./assets/img_logo.png" alt="logo" class="logo">
+    <nav class="detailPage-nav">
+        <img src="./assets/img_logo.png" alt="logo" class="logo">
         <div class="nav-a-group">
-            <a href="./index.html" class="now-page">HOME</a>
-            <a href="./product-list.html">SHOP</a>
+            <a href="./index.html">HOME</a>
+            <a href="./product-list.html" class="now-page">SHOP</a>
             <a href="#">SALE</a>
             <a href="#">NEW</a>
         </div>
     </nav>
-    <div class="banner">
-        <h1 class="bannerTitle">즐거운 일상, 일상의 즐거움 <br/>
-        <span>카카오프렌즈</span></h1>
-    </div>
-
-
-    <section class="section1">
-            <div class="hero-header-title">
-                <h1>카카오프렌즈는 지금?</h1>
-            </div>
-
-        <div class="Product-Cards">
-            <div class="Product-card">
-                <img src="./assets/img_post1.png" alt="">
-                <h2>설레는 봄 캠핑🍃
-                    라이언 & 춘식이와 GO🎒
-                </h2>
+    <section class="hero-ProductInfo-main">
+       <div class="Product-textinfo">
+        <div class="product-title">
+            <h1>[온라인 전용] <br/>
+                머니건_라이언&춘식이</h1>
+                <div class="product-grade">★★★★★ <span>(1)</span></div>
+                <h3 class="product-price">19,000원</h3>
+                <div class="product-deliverPrice">
+                    배송비 3,000원 <br/>
+                    20,000원 이상 결제 시 무료
+                </div>
+           </div>
+    
+            <div class="product-desc">
+                <h4>
+                    라이언 춘식이와 플렉스 할 시간
+                </h4>
                 <p>
-                    캠핑 가기 딱 좋은 날🍃 초보 캠퍼도 걱정 없어요! <br/>
-                    라이언 춘식이가 준비했어요.✌🏻
+                    올 여름 파티에서 <br/>
+                    나를 인싸로 만들어 줄 아이템! <br/>
+                    머니건을 소개합니다.
                 </p>
             </div>
 
-            <div class="Product-card">
-                <img src="./assets/img_post2.png" alt="">
-                <h2>오늘부터 페이로 결제하면<br />
-                    최대 5천원 할인💸</h2>
+            <div class="eventbanner">
+                <img src="./assets/img_eventbanner.png" alt="">
+            </div>
+            
+            <div class="Select-quantity">
+                <span>수량 선택</span>
+                <div class="product-number-ControlBtn">
+                    <button class="btn-minus" id="minusBtn">-</button>
+                    <div class="number" id="result">1</div>
+                    <button class="btn-plus" id="plusBtn">+</button>
+                </div>
+            </div>
+
+    
+            <button class="button-buy">구매하기</button>
+       </div>
+       <div class="product-imginfo">
+           <img src="./assets/img_product0.jpg" alt="">
+       </div>
+    </section>
+
+    <section class="ProductInfo-sub">
+        <div class="sub-navbar">
+            <a href="#">제품설명</a>
+            <a href="#">세부정보</a>
+            <a href="#">리뷰</a>
+            <a href="#">배송 · 반품안내</a>
+        </div>
+
+        <div class="sub-desc">
+            <div class="img-desc-set">
+                <img src="./assets/img_detailPage1.png" alt="">
                 <p>
-                    카카오페이로 프렌즈 상품 구매하고 <Br />
-                    즉시할인 혜택 받아가세요😎
                 </p>
+                <img src="./assets/img_detailPage2.png" alt="">
+                <p>AA 건전지 3개를 손잡이 부분에 장착해준 뒤 덮개를 열고 지폐를 넣어줍니다.<br />
+                    너무 많은 지폐를 넣으면 모터가 헛돌아 발사되지 않을 수 있어요.</p>
+                <img src="./assets/img_detailPage3.png" alt="">
+                <p>70~80장 정도가 적당한 분량으로
+                    함께 동봉되어 있는 가짜 돈이나 구김이 없는 <br/>
+                    실제 지폐를 넣어주시면 됩니다.</p> 
+                <img src="./assets/img_detailPage4.png" alt="">
+                <img src="./assets/img_detailPage5.png" alt="">
+                <p>뚜껑 위에는 플렉스 중인 라이언과 <br/>
+                    춘식이가 늠름하게 앉아있네요.</p> 
+                <img src="./assets/img_detailPage7.jpg" alt="" class="minSizeimg">
+                <img src="./assets/img_detailPage6.jpg" alt="" class="minSizeimg">
+                <p>후- 지폐 다발 받을 준비 되었나?
+                </p> 
             </div>
 
-            <div class="Product-card">
-                <img src="./assets/img_post3.png" alt="">
-                <h2>라이언의 그늘만큼 <Br />
-                    시원하게😎
-                </h2>
-                <p>
-                    무더운 여름🌞 시원한 바람🌬️ <br/>
-                    라이언&춘식이가 만들어줄게요.
-                </p>
+            <div class="product-recommend">
+                <h3 class="recommendTitle">잠깐만! <br/>
+                이 상품은 어때요?</h3>
+                <div class="product-group">
+                    <div class="product">
+                        <img src="./assets/img_product2.png" alt="" >
+                        <h3 class="product-name">클래식 북 무드등 레드_라이언&춘식이</h3>
+                        <p>19,000원</p>
+                    </div>
+    
+                    <div class="product">
+                        <img src="./assets/img_product11.jpg" alt="" >
+                        <h3 class="product-name">조르디 리틀 얼굴쿠션</h3>
+                        <p>16,000원</p>
+                    </div>
+    
+                    <div class="product">
+                        <img src="./assets/img_product3.png" alt="" >
+                        <h3 class="product-name">라이언페이스 캔쿨러</h3>
+                        <p>24,000원</p>
+                    </div>
+    
+                    <div class="product">
+                        <img src="./assets/img_product7.jpg" alt="" >
+                        <h3 class="product-name">시원한 그리너리 남성 썸머 파자마_라&춘</h3>
+                        <p>49,000원</p>
+                    </div>
+                </div>
+       
+                </div> 
             </div>
         </div>
-     <a href="https://www.instagram.com/kakaofriends_official/" target="_blank">more</a>
     </section>
-
-
-
-    <section class="section2">
-        <div class="friends-info-title">
-            <h1>카카오프렌즈의 매력에 빠져보세요! </h1>
-            <p>
-                카카오의 마스코트! <br/>
-                카카오프렌즈 친구들을 소개할게요!
-            </p>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/Cm_qva8i8Q4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-        <div class="friend-ProfileCards">
-            <div class="profile-card">
-                <img src="./assets/img_friend1.png" alt="">
-                <p>라이언</p>
-            </div>
-            <div class="profile-card">
-                <img src="./assets/img_friend2.png" alt="">
-                <p>어피치</p>
-            </div>
-            <div class="profile-card">
-                <img src="./assets/img_friend3.png" alt="">
-                <p>무지</p>
-            </div>
-            <div class="profile-card">
-                <img src="./assets/img_friend4.png" alt="">
-                <p>프로도</p>
-            </div>
-            <div class="profile-card">
-                <img src="./assets/img_friend5.png" alt="">
-                <p>네오</p>
-            </div>
-            <div class="profile-card">
-                <img src="./assets/img_friend6.png" alt="">
-                <p>튜브</p>
-            </div>
-            <div class="profile-card">
-                <img src="./assets/img_friend7.png" alt="">
-                <p>제이지</p>
-            </div>
-            <div class="profile-card">
-                <img src="./assets/img_friend8.png" alt="">
-                <p>콘</p>
-            </div>
-            <div class="profile-card">
-                <img src="./assets/img_friend9.png" alt="">
-                <p>춘식이</p>
-            </div>
-            <div class="profile-card">
-                <img src="./assets/img_friend10.png" alt="">
-                <p>죠르디</p>
-            </div>
-            <div class="profile-card">
-                <img src="./assets/img_friend11.png" alt="">
-                <p>스카피</p>
-            </div>
-            <div class="profile-card">
-                <img src="./assets/img_friend12.png" alt="">
-                <p>빠냐</p>
-            </div>
-        </div>
-     <a href="https://www.instagram.com/kakaofriends_official/" target="_blank">more</a>
-        
-    </section>
-
-
-
-    </div>
-
-    <section class="section3">
-        <h1 class="section3TItle">KakaoFriends Shop</h1>
-        <p class="ShopDesc">
-            카카오프렌즈 친구들의 <br />
-            귀엽고 깜찍한 상품들을 만나보세요!   
-        </p>
-      <div class="product-group">
-        <div class="product-info">
-            <div class="product-img img-1"></div>
-            <h3 class="product-name">시원한아이스머그_라이언</h3>
-            <p class="price">10,000원</p>
-        </div>
-        <div class="product-info">
-            <div class="product-img img-2"></div>
-            <h3 class="product-name">L시원한 옐로우 여성 썸머 파자마_라&춘
-            </h3>
-            <p class="price">49,900원</p>
-        </div>
-        <div class="product-info">
-            <div class="product-img img-3"></div>
-            <h3 class="product-name">오션바이브 비치타월</h3>
-            <p class="price">20,000원</p>
-        </div>
-      </div>
-      <a href="./product-list.html">more</a>
-    </section>
-
     <footer>
         <p>
             제휴문의 | 고객문의 | 이용약관 | 개인정보처리방침 | 지식재산권보호센터
@@ -191,5 +156,23 @@
          </p>
      </div>
     </footer>
+
+    <script>
+        const minusButton = document.getElementById('minusBtn')
+        const plusButton = document.getElementById('plusBtn')
+        const result = document.getElementById('result')
+
+        let number = 1;
+
+        plusButton.addEventListener("click", function(){
+            number = number + 1;
+            result.innerHTML = number;
+        })
+
+        minusButton.addEventListener("click", function(){
+            number = number - 1;
+            result.innerHTML = number;
+        })
+    </script>
 </body>
 </html>
